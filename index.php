@@ -8,13 +8,11 @@
         <h1>
             <?php
             echo 'Hola mundo!!';
-            $var1 = 123;
-            $var2 = 'texto';
-            echo $var2 . $var1 
-            
+
+            $var1 = 'texto';
+            $var2 = 1234;
+            echo $var1 . $var2;
             ?>
-
-
         </h1>
     </body>
 </html>
