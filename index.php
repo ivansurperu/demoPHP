@@ -15,10 +15,10 @@
 
             echo $var1 . $var2;
             
-            echo "suma: " . $var2 + $var3;
-            echo "resta: " . $var2 - $var3;
-            echo "multiplica: " . $var2 * $var3;
-            echo "divide: " . $var2 / $var3;
+            echo "suma: ".$var2 + $var3;
+            echo "resta: ".$var2 - $var3;
+            echo "multiplica: ".$var2 * $var3;
+            echo "divide: ".$var2 / $var3;
             ?>
         </h1>
     </body>
