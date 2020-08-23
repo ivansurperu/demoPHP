@@ -7,6 +7,7 @@
         <h1>Esto es PHP!!!</h1>
         <h1>
             <?php
+            error_reporting(-1);
             echo 'Hola mundo!!';\n\r;
 
             $var1 = "texto ";
