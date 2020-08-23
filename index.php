@@ -13,9 +13,8 @@
             $var2 = 10;
             $var3 = 4;
 
-            echo $var1 . $var2;
-            
-            echo "suma: ".$var2 + $var3.
+            echo $var1 . $var2.
+            " / suma: ".$var2 + $var3.
              " / resta: ".$var2 - $var3.
              " / multiplica: ".$var2 * $var3.
              " / divide: ".$var2 / $var3;
