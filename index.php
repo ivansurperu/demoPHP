@@ -14,10 +14,10 @@
             $var3 = 4;
             echo $var1 . $var2;\n\r;
             
-            echo 'suma:  $var2 + $var3';\n\r;
-            echo 'resta: $var2 - $var3';\n\r;
-            echo 'multiplica: $var2 * $var3';\n\r;
-            echo 'divide: $var2 / $var3';\n\r;
+            echo 'suma: ' .  $var2 + $var3;\n\r;
+            echo 'resta: ' . $var2 - $var3;\n\r;
+            echo 'multiplica: ' . $var2 * $var3;\n\r;
+            echo 'divide: ' . $var2 / $var3;\n\r;
             ?>
         </h1>
     </body>
