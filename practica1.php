@@ -12,8 +12,8 @@
         $nombre="Ivan";
         $edad=18;
 
-        echo "el nombre es: ".$nombre;
-        
+        echo "el nombre es: ".$nombre." tiene ".$edad." años";
+
         ?>
 
     </body>
