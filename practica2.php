@@ -25,8 +25,16 @@
         //tipado dimamico
         $cadena1="5";
         $numero1=3;
-        echo $cadena1+$numero1;
+        echo $cadena1+$numero1."<br/>";
 
+        //sensible a las mayusculas y minusculas
+        $valor1=5;
+        $Valor1=4;
+        echo "valor1 es".$valor1." y Valor1 es".$Valor1."<br/>";
+
+        //valor por referencia
+
+        
         ?>
 
     </body>
