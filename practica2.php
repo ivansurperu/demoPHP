@@ -37,14 +37,14 @@
         $valorX='Bob'; //asigna el valor Bob a $valorX
         $valorY=&$valorX; //referencia $valorX via $valorY
         $valorY="Mi nombre es $valorY"; //modifica $valorY
-        echo $valorX."<br/>"; //$valorX tambien se  modifica
-        echo $valorY;
+        echo $valorX."<br/>"; //$valorX tambien se modifica
+        echo $valorY."<br/>";
          
         //variables por valor
         $valorA='Ivan'; //asigna el valor Bob a $valorA
         $valorB=$valorA; //referencia $valorA via $valorB
         $valorB="Mi nombre es $valorB"; //modifica $valorB
-        echo $valorA."<br/>"; //$valorA tambien se  modifica
+        echo $valorA."<br/>"; //$valorA no se modifica
         echo $valorB;
 
         
