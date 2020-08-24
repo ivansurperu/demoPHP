@@ -24,13 +24,13 @@
         $valorB=3;
         $valorC=4;
 
-        function operaciones(){
-            echo "variable A ".$valorA."<br/>";    
-            echo "variable B ".$valorB."<br/>";   
-            echo "variable C ".$valorC."<br>";    
-            echo "el valor de la funcion Suma (C + B) es ".Suma($valorC,$valorB);
+        function operaciones($valA,$valB,$valC){
+            echo "variable A es ".$valA."<br/>";    
+            echo "variable B es ".$valB."<br/>";   
+            echo "variable C es ".$valC."<br>";    
+            echo "el valor de la funcion Suma (C + B) es ".Suma($valC,$valB);
             echo "<br>";
-            echo "el valor de la funcion Resta (C - A) es ".Resta($valorC,$valorA);
+            echo "el valor de la funcion Resta (C - A) es ".Resta($valC,$valA);
 
         }
 
@@ -42,7 +42,7 @@
             echo $val1 - $val2;
          }
 
-         operaciones();
+         operaciones($valorA,$valorB,$valorC);
 
         ?>
 
