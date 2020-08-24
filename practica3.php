@@ -27,10 +27,12 @@
         function operaciones($valA,$valB,$valC){
             echo "variable A es ".$valA."<br/>";    
             echo "variable B es ".$valB."<br/>";   
-            echo "variable C es ".$valC."<br>";    
-            echo "el valor de la funcion Suma (C + B) es ".Suma($valC,$valB);
+            echo "variable C es ".$valC."<br>";
+            $suma = Suma($valC,$valB);    
+            echo "el valor de la funcion Suma (C + B) es ".$suma;
             echo "<br>";
-            echo "el valor de la funcion Resta (C - A) es ".Resta($valC,$valA);
+            $resta = Resta($valC,$valA);
+            echo "el valor de la funcion Resta (C - A) es ".$resta;
 
         }
 
