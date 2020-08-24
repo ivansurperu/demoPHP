@@ -25,9 +25,9 @@
         $valorC=4;
 
         function operaciones(){
-            echo "variable A ". $valorA."<br>";    
-            echo "variable B ". $valorB."<br>";   
-            echo "variable C ". $valorC."<br>";    
+            echo "variable A ".$valorA."<br/>";    
+            echo "variable B ".$valorB."<br/>";   
+            echo "variable C ".$valorC."<br>";    
             echo "el valor de la funcion Suma (C + B) es ".Suma($valorC,$valorB);
             echo "<br>";
             echo "el valor de la funcion Resta (C - A) es ".Resta($valorC,$valorA);
