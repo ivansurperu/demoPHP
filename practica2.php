@@ -30,9 +30,16 @@
         //sensible a las mayusculas y minusculas
         $valor1=5;
         $Valor1=4;
-        echo "valor1 es".$valor1." y Valor1 es".$Valor1."<br/>";
+        echo "valor1 es ".$valor1." y Valor1 es ".$Valor1."<br/>";
+
 
         //valor por referencia
+        $valorX='Bob'; //asigna el valor Bob a $valorX
+        $valorY=&$valorX; //referencia $valorX via $valorY
+        $valorY="Mi nombre es $valorY"; //modifica $valorY
+        echo $valorX."<br/>"; //$valorX tambien se  modifica
+        echo $valorY;
+         
 
         
         ?>
