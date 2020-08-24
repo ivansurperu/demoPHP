@@ -15,11 +15,11 @@
         $verdadero=true;
         $falso=false;
 
-        echo "entero ".$entero;/n/r;
-        echo "real ".$real;/n/r;
-        echo "cadena ".$cadena;/n/r;
-        echo "verdadero ".$verdadero;/n/r;
-        echo "falso ".$falso;/n/nr;
+        echo "entero ".$entero."/n/r";
+        echo "real ".$real."/n/r";
+        echo "cadena ".$cadena."/n/r";
+        echo "verdadero ".$verdadero."/n/r";
+        echo "falso ".$falso."/n/r";
 
 
         //tipado dimamico
